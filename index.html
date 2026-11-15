@@ -209,6 +209,9 @@ figcaption b{color:var(--ink);font-weight:600}
 .webs{display:grid;grid-template-columns:1.3fr 1fr;gap:20px}
 .webs > figure:first-child{grid-row:span 2}
 .webs > figure:first-child img{aspect-ratio:16/12.4}
+.lp-pages{margin-top:20px}.lp-pages .fig img{aspect-ratio:16/10;object-position:top}
+.lp-pages-h{margin:32px 0 0;font:500 13px/1.2 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+@media (max-width:640px){.lp-pages.gallery.three > figure:first-child{grid-column:auto}.lp-pages.gallery.three > figure:first-child .fig img{aspect-ratio:16/10}}
 @media (max-width:760px){.webs{grid-template-columns:1fr}.webs > figure:first-child{grid-row:auto}.webs > figure:first-child img{aspect-ratio:16/10}}
 
 .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
@@ -659,12 +662,21 @@ dialog.lb button{position:absolute;top:10px;right:10px;font:600 13px/1 var(--bod
         </table>
       </div>
       <div class="webs">
-        <figure><div class="fig" data-full="img/web-lp-local.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Lane's Precision WordPress site"><img src="img/web-lp-local.jpg" alt="Lane's Precision Metal Services WordPress homepage: welding hero photo, Built with Precision headline, Get a Quote button and cut-tolerance stats" loading="lazy" style="object-position:left top"></div>
+        <figure><div class="fig" data-full="img/web-lp-home.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Lane's Precision WordPress site"><img src="img/web-lp-home.jpg" alt="Lane's Precision Metal Services WordPress homepage: welding hero photo, Built with Precision headline, Get a Quote button and cut-tolerance stats" loading="lazy" style="object-position:left top"></div>
           <figcaption><span><b>Lane's Precision</b> · my shop's WordPress + WooCommerce store · built in LocalWP</span><span>WordPress build</span></figcaption></figure>
         <figure><div class="fig" data-full="img/web-venue.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Venue on Main"><img src="img/web-venue.jpg" alt="Venue on Main concept site with a brick hero and an arched window illustration" loading="lazy"></div>
           <figcaption><span><b>Venue on Main</b> · event venue, Swainsboro GA · concept</span></figcaption></figure>
         <figure><div class="fig" data-full="img/web-multitude.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Multitude Venue"><img src="img/web-multitude.jpg" alt="Multitude Venue concept site with a marquee-light frame" loading="lazy"></div>
           <figcaption><span><b>Multitude Venue</b> · 1881 building, Millen GA · concept</span></figcaption></figure>
+      </div>
+      <p class="lp-pages-h">Lane's Precision site · page by page</p>
+      <div class="gallery three lp-pages">
+        <figure><div class="fig" data-full="img/web-lp-3d.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: The Lanes 14 in 3D"><img src="img/web-lp-3d.jpg" alt="Interactive 3D fire pit model with a take-it-apart button and spec list" loading="lazy"></div><figcaption><span>3D fire pit · drag to turn, take it apart</span></figcaption></figure>
+        <figure><div class="fig" data-full="img/web-lp-signs.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Signs shop section"><img src="img/web-lp-signs.jpg" alt="Signs section with a Walk By Faith sign, a custom longhorn ranch sign card and a cross keychain card with prices" loading="lazy"></div><figcaption><span>Signs · WooCommerce product cards</span></figcaption></figure>
+        <figure><div class="fig" data-full="img/web-lp-work.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Work and services"><img src="img/web-lp-work.jpg" alt="Walk By Faith sign photo, printed flyer and invoice photo, and four service cards" loading="lazy"></div><figcaption><span>Real work + service cards</span></figcaption></figure>
+        <figure><div class="fig" data-full="img/web-lp-shop.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Shop page hero"><img src="img/web-lp-shop.jpg" alt="Shop page hero reading Built in Garfield, Shipped Anywhere, with a 3D fixture table model" loading="lazy"></div><figcaption><span>Shop page · 3D fixture table hero</span></figcaption></figure>
+        <figure><div class="fig" data-full="img/web-lp-contact.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Contact page hero"><img src="img/web-lp-contact.jpg" alt="Contact page hero over a photo of a fixture table with tools and a clipboard" loading="lazy"></div><figcaption><span>Contact page</span></figcaption></figure>
+        <figure><div class="fig" data-full="img/web-lp-cta.jpg" tabindex="0" role="button" aria-label="Enlarge screenshot: Closing call to action"><img src="img/web-lp-cta.jpg" alt="Ready to Build Something call to action over a shop photo with Get a Quote and Start a CNC Project buttons" loading="lazy"></div><figcaption><span>Closing call to action</span></figcaption></figure>
       </div>
     </div>
   </section>
